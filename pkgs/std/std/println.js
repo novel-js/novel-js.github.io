@@ -1,5 +1,5 @@
-function println(...data) {
-    $.println(...data);
+function println (...data) {
+  $.println(...data)
 }
 
 export { println }

@@ -1,5 +1,5 @@
-function print(...data){
-    $.print(...data);
+function print (...data) {
+  $.print(...data)
 }
-export {print}
+export { print }
 export default print
