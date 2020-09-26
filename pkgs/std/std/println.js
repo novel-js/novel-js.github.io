@@ -3,3 +3,4 @@ function println(...data) {
 }
 
 export { println }
+export default println

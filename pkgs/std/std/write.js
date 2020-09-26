@@ -1,11 +1,11 @@
-function read(filename) {
+function write(filename, content) {
     return new Promise((resolve, reject) => {
         try {
-            resolve($.fs_read(filename))
+            resolve($.write(filename, content))
         } catch (e) {
             reject(e);
         }
     })
 }
-export { read }
-export default read
+export { write }
+export default write
