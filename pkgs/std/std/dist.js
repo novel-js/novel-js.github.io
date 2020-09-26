@@ -4,6 +4,8 @@ import { read } from 'https://novel-js.github.io/pkgs/std/std/read.js';
 import { write } from 'https://novel-js.github.io/pkgs/std/std/write.js';
 import { append } from 'https://novel-js.github.io/pkgs/std/std/append.js';
 import { exists } from 'https://novel-js.github.io/pkgs/std/std/exists.js';
+import { assert } from 'https://novel-js.github.io/pkgs/std/std/assert.js';
+import { assertOrPanic } from 'https://novel-js.github.io/pkgs/std/std/assertOrPanic.js';
 
 const file = {
   read: read,
@@ -11,5 +13,5 @@ const file = {
   append: append,
   exists: exists
 }
-export { println, print, file }
-export default { println, print, file }
+export { println, print, file, assert, assertOrPanic }
+export default { println, print, file, assert, assertOrPanic }
