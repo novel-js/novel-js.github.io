@@ -6,12 +6,14 @@ import { append } from 'https://novel-js.github.io/pkgs/std/std/append.js';
 import { exists } from 'https://novel-js.github.io/pkgs/std/std/exists.js';
 import { assert } from 'https://novel-js.github.io/pkgs/std/std/assert.js';
 import { assertOrPanic } from 'https://novel-js.github.io/pkgs/std/std/assertOrPanic.js';
+import { path } from 'https://novel-js.github.io/pkgs/std/std/path.js';
 
 const file = {
   read: read,
   write: write,
   append: append,
-  exists: exists
+  exists: exists,
+  path: path
 }
 export { println, print, file, assert, assertOrPanic }
 export default { println, print, file, assert, assertOrPanic }
