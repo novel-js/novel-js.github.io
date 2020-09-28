@@ -17,3 +17,5 @@ class Emitter {
     return this
   }
 }
+export { Emitter }
+export default { Emitter }
