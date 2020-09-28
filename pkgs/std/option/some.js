@@ -3,7 +3,7 @@ import { Option } from 'https://novel-js.github.io/pkgs/std/option/option.js'
 class Some extends Option {
   constructor (inner) {
     super(inner)
-    this.is_some = true
+    this.isSome = true
   }
 
   match (obj) {

@@ -2,7 +2,7 @@ import { Option } from 'https://novel-js.github.io/pkgs/std/option/option.js'
 class None extends Option {
   constructor () {
     super(null)
-    this.is_none = true
+    this.isNome = true
   }
 
   match (obj) {

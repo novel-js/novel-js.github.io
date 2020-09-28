@@ -12,6 +12,14 @@ class Option {
   isNone () {
     return this.isNone
   }
+
+  match (patterns) {
+    if (this.isSome) {
+      patterns.some(this.unwrap())
+    } else {
+      patterns.none()
+    }
+  }
 }
 export { Option }
 export default { Option }
